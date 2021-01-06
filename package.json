@@ -1,0 +1,77 @@
+{
+  "name": "ngrx-entity-relationship-react",
+  "version": "0.0.0",
+  "private": true,
+  "peerDependencies": {
+    "ngrx-entity-relationship": "*"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "1.5.0",
+    "@testing-library/jest-dom": "5.11.8",
+    "@testing-library/react": "11.2.2",
+    "@testing-library/user-event": "12.6.0",
+    "@types/jest": "26.0.19",
+    "@types/node": "12.19.12",
+    "@types/react": "17.0.0",
+    "@types/react-dom": "17.0.0",
+    "@types/react-redux": "7.1.15",
+    "@types/redux": "3.6.0",
+    "ngrx-entity-relationship": "1.4.0",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "react-redux": "7.2.2",
+    "react-scripts": "4.0.1",
+    "redux": "4.0.5",
+    "typescript": "4.1.3",
+    "web-vitals": "1.0.1"
+  },
+  "devDependencies": {
+    "prettier": "2.2.1",
+    "husky": "4.3.6"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ],
+    "rules": {
+      "jsx-a11y/aria-role": "off"
+    }
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%"
+    ],
+    "development": [
+      ">0.2%"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "./node_modules/.bin/prettier -u -w ."
+    }
+  },
+  "renovate": {
+    "extends": [
+      "config:base",
+      ":semanticCommitTypeAll(chore)"
+    ],
+    "rangeStrategy": "pin",
+    "rebaseWhen": "conflicted",
+    "separateMajorMinor": true,
+    "separateMinorPatch": true,
+    "separateMultipleMajor": true,
+    "ignoreDeprecated": false,
+    "semanticCommitScope": "{{#if baseDir}}{{baseDir}}{{else}}deps{{/if}}",
+    "additionalBranchPrefix": "{{#if baseDir}}{{baseDir}}/{{else}}root/{{/if}}",
+    "reviewers": [
+      "satanTime"
+    ]
+  }
+}
