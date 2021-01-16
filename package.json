@@ -41,7 +41,8 @@
       "react-app/jest"
     ],
     "rules": {
-      "jsx-a11y/aria-role": "off"
+      "jsx-a11y/aria-role": "off",
+      "@typescript-eslint/no-unused-vars": "off"
     }
   },
   "browserslist": {
