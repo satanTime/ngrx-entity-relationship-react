@@ -20,7 +20,7 @@
     "react-scripts": "4.0.3",
     "redux": "4.1.0",
     "typescript": "4.2.4",
-    "web-vitals": "1.1.1"
+    "web-vitals": "1.1.2"
   },
   "devDependencies": {
     "prettier": "2.2.1",
