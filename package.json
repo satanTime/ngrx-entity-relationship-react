@@ -23,7 +23,7 @@
     "web-vitals": "3.0.1"
   },
   "devDependencies": {
-    "prettier": "2.7.1",
+    "prettier": "3.3.3",
     "husky": "8.0.1"
   },
   "scripts": {
